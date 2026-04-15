@@ -98,8 +98,8 @@ const Navbar = () => {
 
         {/* Socials (Desktop) */}
         <div className="hidden md:flex items-center space-x-4">
-          <a href="https://github.com/..." className="p-2 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all"><FaGithub size={20}/></a>
-          <a href="https://linkedin.com/..." className="p-2 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all"><FaLinkedin size={20}/></a>
+          <a href="https://github.com/VikasSharma5570" target="_blank" className="p-2 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all"><FaGithub size={20}/></a>
+          <a href="https://www.linkedin.com/in/vikassharma248/" target="_blank" className="p-2 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all"><FaLinkedin size={20}/></a>
         </div>
 
         {/* Mobile Toggle */}
@@ -125,32 +125,13 @@ const Navbar = () => {
                 activeSection === item.id ? "text-purple-500" : "text-gray-400"
               }`}
             >
-              {item.label}
+              {item.label} 
             </button>
           ))}
-          {/* <div className="flex justify-center space-x-8 pt-6 border-t border-white/5">
-            <a href="https://github.com/VikasSharma5570" target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={28}/>11</a>
-            <a href="https://www.linkedin.com/in/vikassharma248/" target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={28}/>11</a>
-          </div> */}
-          <div className="flex justify-center space-x-8 pt-6 border-t border-white/5">
-  <a 
-    href="https://github.com/VikasSharma5570" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="text-gray-400 hover:text-white"
-  >
-    <FaGithub size={28} />
-  </a>
-
-  <a 
-    href="https://www.linkedin.com/in/vikassharma248/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="text-gray-400 hover:text-white"
-  >
-    <FaLinkedin size={28} />
-  </a>
-</div>
+         <div className="flex justify-center space-x-8 pt-6 border-t border-white/5">
+            <a href="https://github.com/VikasSharma5570" target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={28}/></a>
+            <a href="https://www.linkedin.com/in/vikassharma248/" target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={28}/></a>
+          </div> 
         </div>
       </div>
     </nav>
