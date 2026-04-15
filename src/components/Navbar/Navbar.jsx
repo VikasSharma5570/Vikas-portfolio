@@ -129,8 +129,8 @@ const Navbar = () => {
             </button>
           ))}
           <div className="flex justify-center space-x-8 pt-6 border-t border-white/5">
-            <a href="https://github.com/VikasSharma5570" target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={28}/></a>
-            <a href="https://www.linkedin.com/in/vikassharma248/" target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={28}/></a>
+            <a href="https://github.com/VikasSharma5570" target="_blank" className="text-gray-400 hover:text-white"><FaGithub size={28}/>11</a>
+            <a href="https://www.linkedin.com/in/vikassharma248/" target="_blank" className="text-gray-400 hover:text-white"><FaLinkedin size={28}/>11</a>
           </div>
         </div>
       </div>
